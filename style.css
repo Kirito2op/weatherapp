@@ -1,0 +1,54 @@
+#weather{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(79, 12, 12);
+}
+body{
+    background-color: beige;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.form-element{
+    height: 30px;
+    margin-right: 50px;
+}
+#input{
+    width: 300px;
+    background-color: aliceblue;
+    font-size: 26px;
+}
+
+button{
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.place-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.place-container > *{
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.stats-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-container > *{
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
